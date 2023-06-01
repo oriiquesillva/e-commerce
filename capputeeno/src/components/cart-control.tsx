@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 
-const Container = styled.div`
+const Container = styled.button`
     position: relative;
     cursor: pointer;
     border: none;
@@ -30,7 +30,7 @@ export function CartControl () {
     return (
         <Container>
             <CartIcon/>
-            {value.length && <CartCount>{value.length}</CartCount>}
+            {value.length > 0 && <CartCount>{value.length}</CartCount>}
         </Container>
     )
 }

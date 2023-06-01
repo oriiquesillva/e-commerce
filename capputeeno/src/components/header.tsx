@@ -37,7 +37,7 @@ const Logo = styled.a`
 export function Header(props: HeaderProps) {
     return(
         <TagHeader>
-            <Logo className={sairaStencil.className}>Caputeeno</Logo>
+            <Logo className={sairaStencil.className}>ALOJINHA</Logo>
             <div>
                 <PrimaryInputWSearchIcon placeholder="Procurando por algo específico?"/>
                 <CartControl/>
