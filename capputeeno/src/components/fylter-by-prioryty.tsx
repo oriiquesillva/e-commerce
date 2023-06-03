@@ -46,6 +46,7 @@ const Filters = styled.ul`
 
     position: absolute;
     top: 100%;
+    right: 8px;
 
     li{
         color: var(--text-dark);
@@ -58,6 +59,8 @@ const Filters = styled.ul`
     li + li {
         margin-top: 4px;
     }
+
+
 
 `
 
