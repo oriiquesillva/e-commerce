@@ -37,6 +37,8 @@ const Logo = styled.a`
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    text-decoration: none;
+    cursor: pointer;
 
     @media (min-width: ${props => props.theme.desktopBreakpoint}) {
         font-size: 40px;
@@ -51,7 +53,7 @@ export function Header(props: HeaderProps) {
     const { setSearch, search } = useFilter()
     return(
         <TagHeader>
-            <Logo className={sairaStencil.className}>ALOJINHA</Logo>
+            <Logo className={sairaStencil.className} href="/">ALOJINHA</Logo>
             <div>
                 <PrimaryInputWSearchIcon 
                 value={search}
